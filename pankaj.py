@@ -373,7 +373,7 @@ if not st.session_state.show_form:
 
         # Add text on image
         draw = ImageDraw.Draw(image)
-        font = ImageFont.truetype("arial.ttf", 40)  # Adjust font and size
+        font = ImageFont.load_default()
         text = "Rimjhim Ispat Ltd"
 
         # Center the text
@@ -555,4 +555,5 @@ if not st.session_state.show_form:
 
 
             # Load Font Awesome for icons
+
 
