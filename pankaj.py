@@ -350,7 +350,7 @@ if not st.session_state.show_form:
         from PIL import Image, ImageDraw, ImageFont
 
         # Load your image
-        image_path = r"images.jpeg"  # Replace with your image path
+        image_path = "images.jpeg"  # Replace with your image path
         import streamlit as st
         from PIL import Image, ImageDraw, ImageFont
 
@@ -555,3 +555,4 @@ if not st.session_state.show_form:
 
 
             # Load Font Awesome for icons
+
